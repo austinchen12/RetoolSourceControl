@@ -1,0 +1,29 @@
+id: checkbox1
+type: widget
+subtype: RNCheckboxWidget
+template:
+  ordered:
+    - values: '[''foo'', ''bar'', ''baz'']'
+    - customValidation: ''
+    - hideValidationMessage: false
+    - validationMessage: ''
+    - formDataKey: '{{ self.id }}'
+    - value: '[''foo'']'
+    - labelCaption: ''
+    - label: Label
+    - _validate: false
+    - invalid: false
+    - disabled: false
+    - required: false
+    - labels: '[''Foo'', ''Bar'', ''Baz'']'
+style:
+  ordered: []
+position2:
+  position2:
+    height: 5
+    width: 3
+mobileAppPosition:
+  mobilePosition:
+    ordinal: 14
+createdAt: 2022-07-13T00:06:35.394Z
+screen: screen1

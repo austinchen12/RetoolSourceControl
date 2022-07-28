@@ -1,0 +1,18 @@
+id: sidetitle1
+type: widget
+subtype: RNTextWidget
+template:
+  ordered:
+    - value: '{{item.sales}}'
+    - size: small
+    - weight: normal
+    - width: full
+    - textAlign: left
+style:
+  ordered: []
+position2:
+  position2:
+    container: collectionView1
+    row: -.inf
+createdAt: 2022-07-13T00:13:15.624Z
+screen: customCollectionViewScreen

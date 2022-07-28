@@ -1,0 +1,41 @@
+id: collectionView3
+type: widget
+subtype: RNCollectionViewV2Widget
+template:
+  ordered:
+    - cardStyle: flat
+    - titleByIndex: '{{ item.name }}'
+    - subtitleByIndex: ''
+    - showSeparator: false
+    - selectedPageIndex: 0
+    - cardType: compact
+    - serverPaginated: false
+    - data: '{{ query1.data }}'
+    - selectedItem: '{}'
+    - prefixTypeByIndex: image
+    - suffixTypeByIndex: none
+    - prefixIconByIndex: bold/interface-user-single
+    - prefixImageSizeByIndex: 1 to 1
+    - cardSize: full
+    - suffixIconByIndex: bold/interface-arrows-button-right
+    - scrollDirection: vertical
+    - itemMode: dynamic
+    - prefixImageSourceByIndex: '{{ item.image }}'
+    - events:
+        ordered: []
+    - _ids: []
+    - bodyByIndex: ''
+    - suffixValueByIndex: 'false'
+    - suffixTextByIndex: Button
+    - subtitleLengthByIndex: 2
+style:
+  ordered: []
+position2:
+  position2:
+    height: 5
+    width: 3
+mobileAppPosition:
+  mobilePosition:
+    ordinal: 25
+createdAt: 2022-07-13T00:13:24.683Z
+screen: CollectionView
