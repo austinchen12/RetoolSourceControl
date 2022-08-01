@@ -1,0 +1,25 @@
+id: button23
+type: widget
+subtype: RNButtonWidget
+template:
+  ordered:
+    - events:
+        ordered: []
+    - text: Button
+    - size: large
+    - iconAfter: ''
+    - iconBefore: ''
+    - disabled: false
+    - loading: false
+    - width: full
+style:
+  ordered: []
+position2:
+  position2:
+    container: container9
+    row: -.inf
+mobileAppPosition:
+  mobilePosition:
+    ordinal: 2
+createdAt: 2022-07-13T00:17:16.766Z
+screen: layoutScreen

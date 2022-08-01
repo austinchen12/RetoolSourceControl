@@ -1,0 +1,71 @@
+id: button15
+type: widget
+subtype: RNButtonWidget
+template:
+  ordered:
+    - events:
+        - ordered:
+            - event: click
+            - type: actionSheet
+            - method: open
+            - pluginId: ''
+            - targetId: null
+            - params:
+                ordered:
+                  - title: title
+                  - description: subtitle
+                  - actionItems:
+                      - ordered:
+                          - label: Action sheet
+                          - event:
+                              ordered:
+                                - event: click
+                                - method: open
+                                - pluginId: ''
+                                - type: actionSheet
+                                - waitMs: 0
+                                - waitType: debounce
+                                - params:
+                                    ordered:
+                                      - actionItems:
+                                          - ordered:
+                                              - label: ''
+                                              - event:
+                                                  ordered:
+                                                    - event: click
+                                                    - method: trigger
+                                                    - pluginId: ''
+                                                    - type: datasource
+                                                    - waitMs: 0
+                                                    - waitType: debounce
+                                      - title: title
+                      - ordered:
+                          - label: Query
+                          - event:
+                              ordered:
+                                - event: click
+                                - method: trigger
+                                - pluginId: ''
+                                - type: datasource
+                                - waitMs: 0
+                                - waitType: debounce
+            - waitType: debounce
+            - waitMs: '0'
+    - text: ActionSheet
+    - size: large
+    - iconAfter: ''
+    - iconBefore: ''
+    - disabled: false
+    - loading: false
+    - width: full
+style:
+  ordered: []
+position2:
+  position2:
+    height: 5
+    width: 3
+mobileAppPosition:
+  mobilePosition:
+    ordinal: 11
+createdAt: 2022-07-13T00:00:14.591Z
+screen: Event

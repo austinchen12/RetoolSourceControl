@@ -1,0 +1,17 @@
+id: divider3
+type: widget
+subtype: RNDividerWidget
+template:
+  ordered:
+    - spacing: 4
+style:
+  ordered: []
+position2:
+  position2:
+    height: 5
+    width: 3
+mobileAppPosition:
+  mobilePosition:
+    ordinal: 29
+createdAt: 2022-07-13T00:16:52.000Z
+screen: layoutScreen
