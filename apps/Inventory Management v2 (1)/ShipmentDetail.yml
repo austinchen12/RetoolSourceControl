@@ -1,0 +1,17 @@
+id: ShipmentDetail
+type: screen
+subtype: Screen
+template:
+  ordered:
+    - title: ' '
+    - headerLeftActions: []
+    - headerRightActions: []
+    - gap: 8
+    - padding:
+        object:
+          left: 12
+          right: 12
+          top: 8
+          bottom: 8
+    - events: []
+createdAt: 2022-07-27T19:43:30.760Z

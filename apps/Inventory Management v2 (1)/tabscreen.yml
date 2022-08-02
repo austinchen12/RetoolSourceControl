@@ -1,0 +1,19 @@
+id: tabscreen
+type: screen
+subtype: TabScreen
+template:
+  ordered:
+    - items:
+        - ordered:
+            - screen: Products
+            - icon: bold/programming-module
+            - title: Products
+        - ordered:
+            - screen: Warehouses
+            - icon: bold/shopping-store-factory-building
+            - title: Warehouses
+        - ordered:
+            - screen: Shipments
+            - title: Shipments
+            - icon: bold/shipping-transfer-truck-time
+createdAt: 2022-07-27T16:55:33.483Z
