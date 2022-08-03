@@ -1,0 +1,32 @@
+id: Shipments_DirectionSelect
+type: widget
+subtype: RNSelectWidget
+template:
+  ordered:
+    - values: '[''Inbound'', ''Outbound'']'
+    - customValidation: ''
+    - hideValidationMessage: false
+    - validationMessage: ''
+    - formDataKey: '{{ self.id }}'
+    - value: '{{ self.values[0] }}'
+    - labelCaption: ''
+    - label: Direction
+    - _validate: false
+    - invalid: false
+    - events:
+        ordered: []
+    - disabled: false
+    - labelPosition: top
+    - required: true
+    - labels: '{{ self.values }}'
+style:
+  ordered: []
+position2:
+  position2:
+    height: 5
+    width: 3
+mobileAppPosition:
+  mobilePosition:
+    ordinal: 8
+createdAt: 2022-07-27T19:20:30.008Z
+screen: Shipments

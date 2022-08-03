@@ -1,0 +1,20 @@
+id: ProductDetail_Heading
+type: widget
+subtype: RNHeadingWidget
+template:
+  ordered:
+    - value: '{{ getItemDetail.data.title[0] }}'
+    - size: h4
+    - width: full
+    - textAlign: left
+style:
+  ordered: []
+position2:
+  position2:
+    height: 5
+    width: 3
+mobileAppPosition:
+  mobilePosition:
+    ordinal: 24
+createdAt: 2022-07-27T21:06:38.003Z
+screen: ProductDetail

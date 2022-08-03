@@ -1,0 +1,29 @@
+id: ShipmentDetail_HeadingContainer
+type: widget
+subtype: RNContainerWidget
+template:
+  ordered:
+    - events:
+        ordered: []
+    - layout: row
+    - justify: flex-start
+    - align: flex-start
+    - gap: 0
+    - padding:
+        ordered:
+          - left: 0
+          - right: 0
+          - top: 0
+          - bottom: 0
+    - width: full
+style:
+  ordered: []
+position2:
+  position2:
+    height: 5
+    width: 3
+mobileAppPosition:
+  mobilePosition:
+    ordinal: 14
+createdAt: 2022-07-27T19:45:29.579Z
+screen: ShipmentDetail

@@ -1,0 +1,51 @@
+id: Shipments_HistoryCollection
+type: widget
+subtype: RNCollectionViewV2Widget
+template:
+  ordered:
+    - cardStyle: elevated
+    - titleByIndex: '{{ item.fromStreet }} to {{ item.toStreet }}'
+    - subtitleByIndex: 'Order #{{item.id}} - {{ item.status }}'
+    - showSeparator: true
+    - selectedPageIndex: 0
+    - cardType: compact
+    - serverPaginated: false
+    - data: '{{ getShipments.data }}'
+    - selectedItem: '{}'
+    - prefixTypeByIndex: none
+    - suffixTypeByIndex: none
+    - prefixIconByIndex: bold/interface-user-single
+    - prefixImageSizeByIndex: 1 to 1
+    - cardSize: full
+    - suffixIconByIndex: ''
+    - scrollDirection: vertical
+    - itemMode: dynamic
+    - prefixImageSourceByIndex: '{{ item.thumbnailImage }}'
+    - events:
+        - ordered:
+            - event: press
+            - type: navigator
+            - method: navigateTo
+            - pluginId: ''
+            - targetId: null
+            - params:
+                ordered:
+                  - screenPluginId: ShipmentDetail
+            - waitType: debounce
+            - waitMs: '0'
+    - _ids: []
+    - bodyByIndex: '{{ item.date }} '
+    - suffixValueByIndex: 'false'
+    - suffixTextByIndex: '{{ item.status }}'
+    - subtitleLengthByIndex: 2
+style:
+  ordered: []
+position2:
+  position2:
+    height: 5
+    width: 3
+mobileAppPosition:
+  mobilePosition:
+    ordinal: 11
+createdAt: 2022-07-27T18:39:33.832Z
+screen: Shipments

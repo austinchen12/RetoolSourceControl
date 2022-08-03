@@ -1,0 +1,44 @@
+id: ProductDetailFab
+type: widget
+subtype: RNFabWidget
+template:
+  ordered:
+    - events:
+        - ordered:
+            - event: click
+            - type: widget
+            - method: setValue
+            - pluginId: CreateOrder_NewProductSelect
+            - targetId: null
+            - params:
+                ordered:
+                  - value: '{{ selectedItem.value.id.toString() }}'
+                  - strict: true
+            - waitType: debounce
+            - waitMs: '0'
+        - ordered:
+            - event: click
+            - type: navigator
+            - method: navigateTo
+            - pluginId: ''
+            - targetId: null
+            - params:
+                ordered:
+                  - screenPluginId: CreateOrderScreen
+            - waitType: debounce
+            - waitMs: '0'
+    - icon: bold/interface-add-1
+    - text: Add to order
+    - disabled: false
+    - hidden: '{{ !createOrderCart.value.length }}'
+style:
+  ordered: []
+position2:
+  position2:
+    height: 5
+    width: 3
+mobileAppPosition:
+  mobilePosition:
+    ordinal: 39
+createdAt: 2022-07-27T22:25:14.928Z
+screen: ProductDetail

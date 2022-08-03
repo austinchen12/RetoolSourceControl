@@ -1,0 +1,28 @@
+id: Products_Scanner
+type: widget
+subtype: RNScannerWidget
+template:
+  ordered:
+    - iconAfter: ''
+    - width: full
+    - opened: false
+    - autoClose: false
+    - hidden: 'false'
+    - data: []
+    - buttonSize: small
+    - iconBefore: ''
+    - events:
+        ordered: []
+    - disabled: false
+    - buttonText: Find by Barcode
+style:
+  ordered: []
+position2:
+  position2:
+    height: 5
+    width: 3
+mobileAppPosition:
+  mobilePosition:
+    ordinal: 1
+createdAt: 2022-07-27T21:18:37.096Z
+screen: Products
