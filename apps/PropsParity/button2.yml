@@ -1,0 +1,30 @@
+id: button2
+type: widget
+subtype: RNButtonWidget
+template:
+  ordered:
+    - size: large
+    - iconAfter: bold/interface-alert-information-circle
+    - width: full
+    - text: Button
+    - style:
+        ordered:
+          - text: rgba(105, 183, 154, 1)
+          - background: rgb(46, 69, 202)
+    - iconBefore: bold/interface-alert-information-circle-alternate
+    - events:
+        ordered: []
+    - loading: false
+    - disabled: 'true'
+style:
+  ordered: []
+position2:
+  position2:
+    row: 75
+    height: 5
+    width: 3
+mobileAppPosition:
+  mobilePosition:
+    ordinal: 16
+createdAt: 2022-06-22T18:53:33.691Z
+screen: 4Screen

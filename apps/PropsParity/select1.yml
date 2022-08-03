@@ -1,0 +1,34 @@
+id: select1
+type: widget
+subtype: RNSelectWidget
+template:
+  ordered:
+    - values: '['''', ''bar'', ''baz'']'
+    - customValidation: '{{select1.value === ''bar'' ? null : ''bad''}}'
+    - hideValidationMessage: false
+    - validationMessage: ''
+    - labelAlign: left
+    - formDataKey: '{{ self.id }}'
+    - value: foo
+    - labelCaption: ''
+    - hideLabel: false
+    - label: Label
+    - _validate: false
+    - invalid: false
+    - events:
+        ordered: []
+    - disabled: 'false'
+    - labelPosition: top
+    - labelWrap: false
+    - required: true
+    - labels: '['''', ''bar'', ''baz'']'
+style:
+  ordered: []
+position2:
+  position2:
+    height: 5
+    width: 3
+mobileAppPosition:
+  mobilePosition: {}
+createdAt: 2022-06-13T16:51:42.192Z
+screen: screen1

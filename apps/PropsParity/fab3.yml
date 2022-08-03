@@ -1,0 +1,39 @@
+id: fab3
+type: widget
+subtype: RNFabWidget
+template:
+  ordered:
+    - events:
+        - ordered:
+            - event: click
+            - type: util
+            - method: showNotification
+            - pluginId: ''
+            - targetId: null
+            - params:
+                ordered:
+                  - options:
+                      ordered:
+                        - notificationType: info
+                        - title: hi
+            - waitType: debounce
+            - waitMs: '0'
+    - icon: bold/interface-alert-warning-diamond
+    - text: Uh oh
+    - disabled: 'false'
+    - style:
+        ordered:
+          - text: rgba(31, 31, 205, 1)
+          - background: rgba(29, 68, 187, 1)
+style:
+  ordered: []
+position2:
+  position2:
+    row: 80
+    height: 5
+    width: 3
+mobileAppPosition:
+  mobilePosition:
+    ordinal: 17
+createdAt: 2022-06-22T18:53:34.340Z
+screen: 4Screen
