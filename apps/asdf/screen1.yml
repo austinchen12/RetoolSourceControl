@@ -1,0 +1,8 @@
+id: screen1
+type: screen
+subtype: Screen
+template:
+  ordered:
+    - title: Screen 1
+    - gap: 4
+createdAt: 2022-08-04T20:47:25.084Z
