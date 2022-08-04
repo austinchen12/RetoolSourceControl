@@ -1,0 +1,35 @@
+id: button10
+type: widget
+subtype: RNButtonWidget
+template:
+  ordered:
+    - events:
+        - ordered:
+            - event: click
+            - type: widget
+            - method: setValue
+            - pluginId: textInput2
+            - targetId: null
+            - params:
+                ordered:
+                  - value: TEST
+            - waitType: debounce
+            - waitMs: '0'
+    - text: Set
+    - size: large
+    - iconAfter: ''
+    - iconBefore: ''
+    - disabled: false
+    - loading: false
+    - width: full
+style:
+  ordered: []
+position2:
+  position2:
+    height: 5
+    width: 3
+mobileAppPosition:
+  mobilePosition:
+    ordinal: 4
+createdAt: 2022-07-12T22:29:26.734Z
+screen: Event

@@ -1,0 +1,38 @@
+id: textInput2
+type: widget
+subtype: RNTextInputWidget
+template:
+  ordered:
+    - iconAfter: ''
+    - showCharacterCount: false
+    - maxLength: null
+    - customValidation: ''
+    - patternType: ''
+    - hideValidationMessage: false
+    - validationMessage: ''
+    - pattern: ''
+    - formDataKey: '{{ self.id }}'
+    - value: ''
+    - labelCaption: ''
+    - placeholder: Enter value
+    - label: Label
+    - _validate: false
+    - invalid: false
+    - iconBefore: ''
+    - minLength: null
+    - events:
+        ordered: []
+    - autoCapitalize: none
+    - disabled: false
+    - required: false
+style:
+  ordered: []
+position2:
+  position2:
+    height: 5
+    width: 3
+mobileAppPosition:
+  mobilePosition:
+    ordinal: 3
+createdAt: 2022-07-12T22:29:25.871Z
+screen: Event

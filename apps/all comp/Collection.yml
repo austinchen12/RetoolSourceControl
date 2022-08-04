@@ -1,0 +1,17 @@
+id: Collection
+type: screen
+subtype: Screen
+resourceName: ''
+template:
+  ordered:
+    - title: Collection
+    - headerLeftActions: []
+    - headerRightActions: []
+    - gap: 8
+    - padding:
+        object:
+          left: 12
+          right: 12
+          top: 8
+          bottom: 8
+createdAt: 2022-04-11T16:33:54.751Z

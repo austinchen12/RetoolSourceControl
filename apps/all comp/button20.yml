@@ -1,0 +1,24 @@
+id: button20
+type: widget
+subtype: RNButtonWidget
+template:
+  ordered:
+    - events:
+        ordered: []
+    - text: Button
+    - size: large
+    - iconAfter: ''
+    - iconBefore: ''
+    - disabled: false
+    - loading: false
+    - width: full
+style:
+  ordered: []
+position2:
+  position2:
+    container: container7
+    row: -.inf
+mobileAppPosition:
+  mobilePosition: {}
+createdAt: 2022-07-13T00:14:23.650Z
+screen: layoutScreen

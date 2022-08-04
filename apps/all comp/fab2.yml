@@ -1,0 +1,34 @@
+id: fab2
+type: widget
+subtype: RNFabWidget
+template:
+  ordered:
+    - events:
+        - ordered:
+            - event: click
+            - type: util
+            - method: showNotification
+            - pluginId: ''
+            - targetId: null
+            - params:
+                ordered:
+                  - options:
+                      ordered:
+                        - notificationType: info
+                        - title: hello again
+            - waitType: debounce
+            - waitMs: '0'
+    - icon: bold/interface-add-1
+    - text: ''
+    - disabled: false
+style:
+  ordered: []
+position2:
+  position2:
+    height: 5
+    width: 3
+mobileAppPosition:
+  mobilePosition:
+    ordinal: 33
+createdAt: 2022-07-13T15:07:16.098Z
+screen: Event
