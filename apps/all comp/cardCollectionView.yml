@@ -1,0 +1,16 @@
+id: cardCollectionView
+type: screen
+subtype: Screen
+template:
+  ordered:
+    - title: CardCollectionView
+    - headerLeftActions: []
+    - headerRightActions: []
+    - gap: 8
+    - padding:
+        object:
+          left: 12
+          right: 12
+          top: 8
+          bottom: 8
+createdAt: 2022-07-13T00:13:07.338Z

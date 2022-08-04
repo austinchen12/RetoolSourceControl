@@ -1,0 +1,55 @@
+id: collectionView1
+type: widget
+subtype: RNCustomCollectionViewWidget
+template:
+  ordered:
+    - events:
+        ordered: []
+    - data: |-
+        [{
+          "id": 1,
+          "name": "Hanson Deck",
+          "email": "hanson@deck.com",
+          "sales": 37
+        }, {
+          "id": 2,
+          "name": "Sue Shei",
+          "email": "sueshei@example.com",
+          "sales": 550
+        }, {
+          "id": 3,
+          "name": "Jason Response",
+          "email": "jason@response.com",
+          "sales": 55
+        }, {
+          "id": 4,
+          "name": "Cher Actor",
+          "email": "cher@example.com",
+          "sales": 424
+        }, {
+          "id": 5,
+          "name": "Erica Widget",
+          "email": "erica@widget.org",
+          "sales": 243
+        }]
+    - instances: 5
+    - showSeparator: false
+    - selectedItem: '{}'
+    - gap: 8
+    - padding:
+        ordered:
+          - left: 12
+          - right: 12
+          - top: 8
+          - bottom: 8
+style:
+  ordered: []
+position2:
+  position2:
+    height: 5
+    width: 3
+mobileAppPosition:
+  mobilePosition:
+    ordinal: 23
+createdAt: 2022-07-13T00:13:15.503Z
+screen: customCollectionViewScreen
