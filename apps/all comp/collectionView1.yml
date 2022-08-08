@@ -35,6 +35,7 @@ template:
     - instances: 5
     - showSeparator: false
     - selectedItem: '{}'
+    - cardStyle: flat
     - gap: 8
     - padding:
         ordered:
