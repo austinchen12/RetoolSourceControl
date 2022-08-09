@@ -1,0 +1,26 @@
+id: ProductDetail_DescriptionText
+type: widget
+subtype: RNTextWidget
+template:
+  ordered:
+    - value: |-
+        {{ getItemDetail.data['features/0'][0] }}
+        {{ getItemDetail.data['features/1'][0] }}
+        {{ getItemDetail.data['features/2'][0] }}
+        {{ getItemDetail.data['features/3'][0] }}
+    - size: medium
+    - weight: normal
+    - width: full
+    - textAlign: left
+style:
+  ordered: []
+position2:
+  position2:
+    container: ProductDetail_DescriptionContainer
+    height: 5
+    width: 3
+mobileAppPosition:
+  mobilePosition:
+    ordinal: 1
+createdAt: 2022-07-27T21:12:40.833Z
+screen: ProductDetail

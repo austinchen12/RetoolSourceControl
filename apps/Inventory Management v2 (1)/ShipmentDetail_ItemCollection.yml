@@ -1,0 +1,41 @@
+id: ShipmentDetail_ItemCollection
+type: widget
+subtype: RNCollectionViewV2Widget
+template:
+  ordered:
+    - cardStyle: elevated
+    - titleByIndex: '{{ item.title }}'
+    - subtitleByIndex: 'Quantity: {{ Number(item.quantity).toLocaleString() }}'
+    - showSeparator: true
+    - selectedPageIndex: 0
+    - cardType: compact
+    - serverPaginated: false
+    - data: '{{ getShipmentItems.data }}'
+    - selectedItem: '{}'
+    - prefixTypeByIndex: none
+    - suffixTypeByIndex: none
+    - prefixIconByIndex: bold/interface-user-single
+    - prefixImageSizeByIndex: 2 to 1
+    - cardSize: full
+    - suffixIconByIndex: ''
+    - scrollDirection: vertical
+    - itemMode: dynamic
+    - prefixImageSourceByIndex: ''
+    - events:
+        ordered: []
+    - _ids: []
+    - bodyByIndex: ''
+    - suffixValueByIndex: ''
+    - suffixTextByIndex: ''
+    - subtitleLengthByIndex: ''
+style:
+  ordered: []
+position2:
+  position2:
+    height: 5
+    width: 3
+mobileAppPosition:
+  mobilePosition:
+    ordinal: 18
+createdAt: 2022-07-27T20:35:57.273Z
+screen: ShipmentDetail

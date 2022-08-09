@@ -1,0 +1,30 @@
+id: ProductDetail_DescriptionContainer
+type: widget
+subtype: RNContainerWidget
+template:
+  ordered:
+    - events:
+        ordered: []
+    - layout: column
+    - justify: flex-start
+    - align: flex-start
+    - gap: 0
+    - padding:
+        ordered:
+          - left: 0
+          - right: 0
+          - top: 0
+          - bottom: 0
+    - width: full
+style:
+  ordered: []
+position2:
+  position2:
+    container: ProductDetail_LongFormContainer
+    height: 5
+    width: 3
+mobileAppPosition:
+  mobilePosition:
+    ordinal: 1
+createdAt: 2022-07-27T21:17:08.560Z
+screen: ProductDetail
