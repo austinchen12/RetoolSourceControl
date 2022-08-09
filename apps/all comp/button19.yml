@@ -1,0 +1,35 @@
+id: button19
+type: widget
+subtype: RNButtonWidget
+template:
+  ordered:
+    - events:
+        - ordered:
+            - event: click
+            - type: navigator
+            - method: navigateTo
+            - pluginId: ''
+            - targetId: null
+            - params:
+                ordered:
+                  - screenPluginId: customCollectionViewScreen
+            - waitType: debounce
+            - waitMs: '0'
+    - text: CustomCollectionView
+    - size: large
+    - iconAfter: ''
+    - iconBefore: ''
+    - disabled: false
+    - loading: false
+    - width: full
+style:
+  ordered: []
+position2:
+  position2:
+    height: 5
+    width: 3
+mobileAppPosition:
+  mobilePosition:
+    ordinal: 22
+createdAt: 2022-07-13T00:12:29.866Z
+screen: Collection

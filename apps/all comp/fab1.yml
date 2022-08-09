@@ -1,0 +1,38 @@
+id: fab1
+type: widget
+subtype: RNFabWidget
+template:
+  ordered:
+    - events:
+        - ordered:
+            - event: click
+            - type: util
+            - method: showNotification
+            - pluginId: ''
+            - targetId: null
+            - params:
+                ordered:
+                  - options:
+                      ordered:
+                        - notificationType: info
+                        - title: asdf
+            - waitType: debounce
+            - waitMs: '0'
+    - icon: bold/interface-add-1
+    - text: ''
+    - disabled: false
+    - style:
+        ordered:
+          - text: rgba(18, 18, 191, 1)
+          - background: rgba(62, 98, 208, 1)
+style:
+  ordered: []
+position2:
+  position2:
+    height: 5
+    width: 3
+mobileAppPosition:
+  mobilePosition:
+    ordinal: 12
+createdAt: 2022-07-13T00:06:48.062Z
+screen: screen1

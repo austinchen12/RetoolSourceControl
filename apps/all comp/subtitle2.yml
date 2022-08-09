@@ -1,0 +1,17 @@
+id: subtitle2
+type: widget
+subtype: RNTextWidget
+template:
+  ordered:
+    - value: '{{item.email}}'
+    - size: small
+    - weight: normal
+    - width: full
+    - textAlign: left
+style:
+  ordered: []
+position2:
+  position2:
+    container: container14
+createdAt: 2022-07-22T17:32:11.913Z
+screen: customCollectionViewScreen
