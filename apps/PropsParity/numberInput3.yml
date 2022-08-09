@@ -1,0 +1,34 @@
+id: numberInput3
+type: widget
+subtype: RNNumberInputWidget
+template:
+  ordered:
+    - iconAfter: ''
+    - maxLength: null
+    - customValidation: '{{ 0 === 0 ? null : ''bad''}}'
+    - hideValidationMessage: false
+    - validationMessage: ''
+    - formDataKey: '{{ self.id }}'
+    - value: 0
+    - labelCaption: hello
+    - hideLabel: false
+    - placeholder: 0
+    - label: Label
+    - _validate: false
+    - invalid: false
+    - iconBefore: ''
+    - minLength: null
+    - events:
+        ordered: []
+    - disabled: 'false'
+    - required: true
+style:
+  ordered: []
+position2:
+  position2:
+    row: -.inf
+mobileAppPosition:
+  mobilePosition:
+    ordinal: 23
+createdAt: 2022-07-05T20:50:33.813Z
+screen: screen1
