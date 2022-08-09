@@ -1,0 +1,18 @@
+id: heading2
+type: widget
+subtype: RNHeadingWidget
+template:
+  ordered:
+    - value: 👋 Hello {{ current_user.firstName || 'friend' }}!
+    - size: h1
+    - width: full
+    - textAlign: left
+style:
+  ordered: []
+position2:
+  position2: {}
+mobileAppPosition:
+  mobilePosition:
+    ordinal: 29
+createdAt: 2022-08-09T19:06:47.447Z
+screen: screen1
