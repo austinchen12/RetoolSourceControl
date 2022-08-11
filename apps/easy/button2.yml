@@ -1,0 +1,32 @@
+id: button2
+type: widget
+subtype: RNButtonWidget
+template:
+  ordered:
+    - events:
+        - ordered:
+            - event: click
+            - type: navigator
+            - method: backToRoot
+            - pluginId: ''
+            - targetId: null
+            - params:
+                ordered: []
+            - waitType: debounce
+            - waitMs: '0'
+    - text: Button
+    - size: large
+    - iconAfter: ''
+    - iconBefore: ''
+    - disabled: false
+    - loading: false
+    - width: full
+style:
+  ordered: []
+position2:
+  position2: {}
+mobileAppPosition:
+  mobilePosition:
+    ordinal: 5
+createdAt: 2022-08-10T20:22:55.320Z
+screen: 3Screen
