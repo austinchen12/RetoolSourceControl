@@ -1,0 +1,34 @@
+id: button6
+type: widget
+subtype: RNButtonWidget
+template:
+  ordered:
+    - events:
+        - ordered:
+            - event: click
+            - type: navigator
+            - method: modal
+            - pluginId: ''
+            - targetId: null
+            - params:
+                ordered:
+                  - screenPluginId: Modal
+            - waitType: debounce
+            - waitMs: '0'
+    - text: Modal
+    - size: large
+    - iconAfter: ''
+    - iconBefore: ''
+    - disabled: false
+    - loading: false
+    - width: full
+style:
+  ordered: []
+position2:
+  position2:
+    height: 5
+    width: 3
+mobileAppPosition:
+  mobilePosition: {}
+createdAt: 2022-05-09T17:47:58.381Z
+screen: Navigation

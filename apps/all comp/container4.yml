@@ -1,0 +1,27 @@
+id: container4
+type: widget
+subtype: RNContainerWidget
+template:
+  ordered:
+    - events:
+        ordered: []
+    - layout: row
+    - justify: flex-start
+    - align: stretch
+    - gap: 0
+    - padding:
+        ordered:
+          - left: 0
+          - right: 0
+          - top: 0
+          - bottom: 0
+    - width: full
+    - wrap: nowrap
+style:
+  ordered: []
+position2:
+  position2:
+    container: collectionView1
+    row: -.inf
+createdAt: 2022-07-13T00:13:15.594Z
+screen: customCollectionViewScreen

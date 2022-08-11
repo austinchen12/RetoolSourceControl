@@ -1,0 +1,28 @@
+id: container11
+type: widget
+subtype: RNContainerWidget
+template:
+  ordered:
+    - events:
+        ordered: []
+    - layout: column
+    - justify: flex-start
+    - align: flex-start
+    - gap: 0
+    - padding:
+        ordered:
+          - left: 0
+          - right: 0
+          - top: 0
+          - bottom: 0
+    - width: full
+style:
+  ordered: []
+position2:
+  position2:
+    container: container10
+    row: -.inf
+mobileAppPosition:
+  mobilePosition: {}
+createdAt: 2022-07-13T00:20:01.600Z
+screen: layoutScreen
