@@ -1,0 +1,30 @@
+id: CreateOrder_Fab
+type: widget
+subtype: RNFabWidget
+template:
+  ordered:
+    - events:
+        - ordered:
+            - event: click
+            - type: datasource
+            - method: trigger
+            - pluginId: createShipment
+            - targetId: null
+            - params:
+                ordered: []
+            - waitType: debounce
+            - waitMs: '0'
+    - icon: bold/interface-validation-check-circle
+    - text: Submit order
+    - disabled: false
+style:
+  ordered: []
+position2:
+  position2:
+    height: 5
+    width: 3
+mobileAppPosition:
+  mobilePosition:
+    ordinal: 38
+createdAt: 2022-07-27T22:05:11.542Z
+screen: CreateOrderScreen

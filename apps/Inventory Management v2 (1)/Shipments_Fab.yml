@@ -1,0 +1,33 @@
+id: Shipments_Fab
+type: widget
+subtype: RNFabWidget
+template:
+  ordered:
+    - events:
+        - ordered:
+            - event: click
+            - type: navigator
+            - method: navigateTo
+            - pluginId: ''
+            - targetId: null
+            - params:
+                ordered:
+                  - screenPluginId: CreateOrderScreen
+            - waitType: debounce
+            - waitMs: '0'
+    - icon: bold/interface-add-1
+    - text: >-
+        {{ createOrderCart.value.length ? 'Continue order' : 'Create new order'
+        }}
+    - disabled: false
+style:
+  ordered: []
+position2:
+  position2:
+    height: 5
+    width: 3
+mobileAppPosition:
+  mobilePosition:
+    ordinal: 31
+createdAt: 2022-07-27T21:43:38.958Z
+screen: Shipments

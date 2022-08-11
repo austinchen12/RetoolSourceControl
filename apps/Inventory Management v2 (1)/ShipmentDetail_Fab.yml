@@ -1,0 +1,54 @@
+id: ShipmentDetail_Fab
+type: widget
+subtype: RNFabWidget
+template:
+  ordered:
+    - events:
+        - ordered:
+            - event: click
+            - type: datasource
+            - method: trigger
+            - pluginId: updateShipment
+            - targetId: null
+            - params:
+                ordered: []
+            - waitType: debounce
+            - waitMs: '0'
+        - ordered:
+            - event: click
+            - type: navigator
+            - method: back
+            - pluginId: ''
+            - targetId: null
+            - params:
+                ordered: []
+            - waitType: debounce
+            - waitMs: '0'
+        - ordered:
+            - event: click
+            - type: util
+            - method: showNotification
+            - pluginId: ''
+            - targetId: null
+            - params:
+                ordered:
+                  - options:
+                      ordered:
+                        - notificationType: success
+                        - title: Order updated successfully!
+            - waitType: debounce
+            - waitMs: '0'
+    - icon: bold/interface-content-save
+    - text: Save Changes
+    - disabled: false
+style:
+  ordered: []
+position2:
+  position2:
+    height: 5
+    width: 3
+mobileAppPosition:
+  mobilePosition:
+    ordinal: 30
+createdAt: 2022-07-27T21:30:13.288Z
+screen: ShipmentDetail
